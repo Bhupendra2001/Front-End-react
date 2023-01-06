@@ -14,7 +14,7 @@ import './App.css'
 
 return (
   <div>
-    <form id="a" onSubmit={(e)=>{  e.preventDefault()}}>
+    <form id="a" >
 
       <div>
         <label> FirstName  </label>
@@ -42,11 +42,11 @@ return (
       </div>
 
       <div>
-        <label> Frofile </label>
-        <input type="file" value={profile} onChange={(e)=> setProfile(e.target.value)}/>
+        <label> Frofile </label> <br/>
+        <input id="b" type="file" value={profile} onChange={(e)=> setProfile(e.target.value)}/>
       </div>
-     <button type="submit" > Submit </button>
-     <button type="reset" > ReSet</button>
+     <button  className="bt" type="submit" > Submit </button>
+    
     </form>
     < div className="abc">
     <p> USER DETAILS </p> <br/>
@@ -57,7 +57,7 @@ return (
       Gender : {gender}   <br/> 
       Country :{country}  <br/> 
       Email : {email}   <br/>
-      profile : {profile}  <br/>
+      profile :  {profile}  <br/>
     </div>
  }
 

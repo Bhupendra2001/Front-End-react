@@ -8,16 +8,39 @@
     border: 3px solid black;
     color: blueviolet;
     border-radius: 20px;
-    margin: 20px;
+    margin: 100px;
     padding: 20px;
     width: 200px;
     height: 300px;
+    text-align: center;
+  
+  
+}
+.bt{
+    margin: 10px;
+    width: 189px;
+    background-color: rgb(162, 232, 21);
 }
 .abc{
-   width: 200px;
+   width: 250px;
    height: 200px; 
    border: 3px solid red;
+   border-radius: 19px;
    padding: 20px;
-   margin: 20px;
+   margin: 100px;
    color: rgb(226, 181, 16);
+}
+
+#f{
+    border: 1px solid red;
+    border-radius: 10px;
+    display: flex;
+    text-align:  center;
+    justify-content: center;
+}
+#b{
+    border: 1px solid rebeccapurple;
+    width: 179px;
+    background-color:white;
+    margin: 1px;
 }
