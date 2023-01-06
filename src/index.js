@@ -6,8 +6,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
     <React.StrictMode>
-      <h1>hello functionup team this is  my first assignment</h1>
-        <App/>
+      <h1>hello functionup team this is  my second assignment</h1>
+       <App/>
     </React.StrictMode>
 )
 
