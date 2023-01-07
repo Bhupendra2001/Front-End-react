@@ -1,46 +1,51 @@
-#up{
-    border: 2px solid red;
-    width: 200px;
-   height: 150px;
-}
 
-#a{
-    border: 3px solid black;
-    color: blueviolet;
-    border-radius: 20px;
-    margin: 100px;
-    padding: 20px;
-    width: 200px;
-    height: 300px;
-    text-align: center;
-  
-  
-}
-.bt{
-    margin: 10px;
-    width: 189px;
-    background-color: rgb(162, 232, 21);
-}
-.abc{
-   width: 250px;
-   height: 200px; 
+#abc{
+   width: 410px;
+   height: 300px; 
    border: 3px solid red;
-   border-radius: 19px;
-   padding: 20px;
+   border-radius: 40px;
+   padding: 40px;
+   background-color: rgb(155, 202, 25);
    margin: 100px;
    color: rgb(226, 181, 16);
+   text-align: center;
 }
-
-#f{
-    border: 1px solid red;
-    border-radius: 10px;
-    display: flex;
-    text-align:  center;
-    justify-content: center;
+#abc :hover{
+background-color: blue;
+color: black;
 }
 #b{
-    border: 1px solid rebeccapurple;
-    width: 179px;
-    background-color:white;
-    margin: 1px;
+    border: 2px solid blue;
+    border-radius: 30px;
+    background-color: rgb(19, 167, 212);
+    margin-top: 20px;
+    width: 340px;
+    height: 60px;
+  
+}
+#a{
+    border: 1px solid red;
+    border-radius: 30px;
+    padding: 16px;
+    width: 310px;
+    height: 25px;
+    background-color: brown;
+}
+#f{
+    background-color: black;
+    border: 1px solid gold;
+    text-align: center;
+    color: white;
+}
+
+.ab{
+    border: 2px solid rgb(74, 12, 182);
+    border-radius: 30px;
+    width: 340px;
+    height: 50px;
+    text-align: center;
+    color: blue;
+    margin: 20px;
+    margin-left: 35px;
+    background-color: aqua;
 }
